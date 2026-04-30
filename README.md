@@ -23,7 +23,6 @@
 ---
 
 ## 二、项目框架
-.
 ├── .venv/                  # Python 虚拟环境
 ├── src/
 │   └── Work0/
@@ -110,7 +109,7 @@ $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 
 $$\mathbf{T} = \eta \mathbf{I} + \left(\eta \cos\theta_i - \cos\theta_t\right)\mathbf{N}$$
 
-其中 $\eta = n_1 / n_2$，$\cos\theta_i = -\mathbf{I} \cdot \mathbf{N}$，$\cos\theta_t = \sqrt{1 - \eta^2(1 - \cos^2\theta_i)}$。
+其中  $\eta = n_1 / n_2$ ， $\cos\theta_i = -\mathbf{I} \cdot \mathbf{N}$ ， $\cos\theta_t = \sqrt{1 - \eta^2(1 - \cos^2\theta_i)}$ 。
 
 当 $\sin^2\theta_t > 1$ 时，发生**全内反射（TIR）**，光线无法折射出去，退化为镜面反射处理。
 
