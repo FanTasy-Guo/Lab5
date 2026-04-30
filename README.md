@@ -23,6 +23,8 @@
 ---
 
 ## 二、项目框架
+
+```
 ├── .venv/                  # Python 虚拟环境
 ├── src/
 │   └── Work0/
@@ -34,6 +36,7 @@
 ├── .gitignore
 ├── imgui.ini               # ImGui 窗口布局缓存
 └── README.md
+```
 
 > 核心代码位于 `src/Work0/ok!.py`，实验所有渲染逻辑均在该文件中实现。
 
@@ -178,6 +181,8 @@ dy  = (row + 0.5) / min(ns//4+1, 4) - 0.5
 ## 六、代码逻辑总览
 
 ### 6.1 整体渲染管线
+
+```
 主循环（Python）
 ├── render()  ← @ti.kernel（GPU 并行，逐像素执行）
 │   │
@@ -192,6 +197,8 @@ dy  = (row + 0.5) / min(ns//4+1, 4) - 0.5
 │
 ├── canvas.set_image(pixels)
 └── GUI 滑动条 → Light XYZ / Max Bounces / MSAA Samples 实时更新
+```
+
 ### 6.2 关键函数说明
 
 | 函数 | 类型 | 功能说明 |
