@@ -232,5 +232,5 @@ dy  = (row + 0.5) / min(ns//4+1, 4) - 0.5
 </div>
 
 <div align="center">
-  <img src="gif/玻璃球2.gif" width="600">  
+  <img src="gif/玻璃球2.gif" width="700">  
 </div>
