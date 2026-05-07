@@ -31,7 +31,6 @@
 │       ├── pycache/
 │       ├── lab5.py         # 基础实验（必做部分）
 │       ├── ok!.py          # 最终完整版（含全部选做）
-│       ├── improve.py      # 过程迭代版本
 │       └── test.py         # 调试测试脚本
 ├── .gitignore
 ├── imgui.ini               # ImGui 窗口布局缓存
