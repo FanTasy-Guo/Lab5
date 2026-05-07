@@ -1,6 +1,6 @@
 # 计算机图形学实验五报告
 
-## 基于 Taichi 的 Whitted-Style 光线追踪：折射、软阴影与抗锯齿
+## 光线追踪：折射、软阴影与抗锯齿
 
 ---
 
@@ -222,3 +222,16 @@ dy  = (row + 0.5) / min(ns//4+1, 4) - 0.5
 - **颜色截幅**：最终写入 `pixels` 前使用 `tm.clamp(..., 0.0, 1.0)` 防止过曝。
 
 ## 七、效果展示
+### 7.1 基础实验效果展示
+<div align="center">
+  <img src="gif/1.gif" width="700">  
+</div>
+
+### 7.2 加入玻璃球和抗锯齿效果
+<div align="center">
+  <img src="gif/玻璃球.gif" width="700">  
+</div>
+
+<div align="center">
+  <img src="gif/玻璃球2.gif" width="600">  
+</div>
