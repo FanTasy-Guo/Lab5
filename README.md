@@ -31,7 +31,6 @@
 │       ├── pycache/
 │       ├── lab5.py         # 基础实验（必做部分）
 │       ├── ok!.py          # 最终完整版（含全部选做）
-│       ├── improve.py      # 过程迭代版本
 │       └── test.py         # 调试测试脚本
 ├── .gitignore
 ├── imgui.ini               # ImGui 窗口布局缓存
@@ -233,5 +232,5 @@ dy  = (row + 0.5) / min(ns//4+1, 4) - 0.5
 </div>
 
 <div align="center">
-  <img src="gif/玻璃球2.gif" width="600">  
+  <img src="gif/玻璃球2.gif" width="700">  
 </div>
